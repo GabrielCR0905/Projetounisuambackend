@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(120deg, #04385a, #04385a);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}
+
+.center h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+.center form {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.txt-field {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt-field label {
+    color: #272525;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.txt-field input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #adadad;
+    background: none;
+    outline: none;
+    color: #000;
+}
+
+button[type="button"], button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    margin-top: 15px;
+}
+
+button[type="submit"] {
+    background-color: #2691d9;
+    color: #e9d4fb;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(1, 190, 1);
+    transition: .5s;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 12%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color: #DC143C;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    transition: all .5s;
+    width: 100%;
+}
+
+.menunav1 {
+    list-style: none;
+    display: flex;
+}
+
+.menunav1 li {
+    letter-spacing: 3px;
+    margin-left: 30px;
+}

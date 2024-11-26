@@ -1,0 +1,58 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticação de Dois Fatores</title>
+    <link rel="stylesheet" href="assets/css/style2fa.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <img class="logo" src="assets/img/telecall.png" alt="Logo da TeleCall">
+      
+          <ul class="menunav1">
+      
+            
+            
+            
+      
+          </ul>
+      
+        </nav>
+      </header>
+      <div class="center">
+        <h1> 2FA de Segurança</h1>
+    <form id="name-formlogin" action="authenticate.php" method="POST">
+        <!-- Outros campos de login -->
+        <div class="txt-field">
+<label for="securityQuestion">Pergunta de Segurança:</label>
+             <input type="text" id="securityQuestion" name="securityQuestion" readonly>
+             </div>        
+             <div class="txt-field">
+         <label for="answer">Resposta:</label>
+             <input type="text" id="answer" name="resposta" >
+          </div>           
+        <button type="button"  onclick="Gerarpergunta()">Gerar Pergunta</button>
+        <button type="submit" name="enviar-2fa">Enviar</button>
+    </form>
+</div>
+    <script>
+        function Gerarpergunta() {
+            // Array de perguntas
+            const questions = [
+                "Qual é o nome da sua mãe?",
+                "Qual é o CEP do seu endereço?"
+            ];
+
+            // Escolher uma pergunta aleatória
+            const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
+
+            // Exibir a pergunta no campo de texto
+            document.getElementById("securityQuestion").value = randomQuestion;
+        }
+    </script>
+</body>
+</html>

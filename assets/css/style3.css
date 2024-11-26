@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+
+
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 14%;
+    height: 100%;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color:#DC143C ;
+    height: 12vh;
+    
+
+
+}
+
+
+
+.menunav{
+    list-style: none;
+    display: flex;
+}
+
+.menunav li {letter-spacing: 2px;
+            margin-left:30px ;
+}
+
+.apresent{
+    background-color: #04385a;
+   
+}
+
+.menuapresent{
+    color: #fff;
+    text-align: left;
+    width: 30%;
+    padding: 4%;
+    font-size: large;
+    
+    
+    
+}
+
+.titulo{
+    color:#fff ;
+    font-size: xxx-large;
+    padding: 1%;
+
+}
+
+#imgmenu{
+    float: right;
+    display: flex;
+    width:47%;
+    margin-top:-29%;
+    margin-right: 10%;
+    position:relative;
+    
+
+}
+
+.titulo2{
+   color: #fff;
+   padding-inline-start: 10%;
+   font-size: x-large;
+
+}
+
+.titulologistica{
+    color:#2691d9 ;
+    padding: 1%;
+}
+
+.logistica{
+    color: black;
+    text-align: left;
+    width: 10%;
+    height: 10%;
+    padding: 4%;
+    font-size: medium;
+    float: left;
+    background-color: azure;
+}
+
+.varejo{
+    color: black;
+    text-align: left;
+    width: 10%;
+    height: 50%;
+    padding: 4%;
+    padding-bottom: 4%;
+    padding-left: 10%;
+    font-size:medium;
+    float: left;
+    background-color: azure;
+}
+.titulovarejo{
+    color: #2691d9;
+}
+
+.titulocallcenter{
+    color: #2691d9;
+}
+
+.callcenter{
+    color: black;
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    padding: 4%;
+    padding-right: 5%;
+    font-size:medium;
+    float: right;
+    background-color: azure;
+}
+   
+.saudetitulo{
+    color: #2691d9;
+
+}
+
+.saude{
+    color: black;
+    text-align: center;
+    width: 10%;
+    height: 10%;
+    padding: 4%;
+    padding-right: 15%;
+    font-size:medium;
+    float: right;
+    background-color: azure;
+}
+
+.a{
+    color: #fff;
+    background-color: azure;
+}
+
+.doisfa{
+    float: left;
+    color: black;
+    text-align: left;
+    width: 40%;
+    height: 10%;
+    padding: 3%;
+    font-size: medium;
+    background-color: rgb(216, 217, 217);
+    
+    
+}
+
+.subtitulo{
+    color: #04385a;
+}
+
+.titulosolucoes{
+    color: #2691d9;
+    font-size:xx-large;
+}
+
+
+.img2fa{
+    float: right;
+    height: 300px;
+    width: 100px;
+    max-height: 100%;
+    display: flex;
+    margin-right: 43%;
+    
+}
+   
+.nummascara{
+    float: left;
+    color: black;
+    text-align: left;
+    width: 40%;
+    height: 10%;
+    padding: 3%;
+    font-size: medium;
+    background-color: rgb(216, 217, 217);;
+
+}
+
+.imgmascara{
+    float: right;
+    height: 241px;
+    width: 100px;
+    max-height: 100%;
+    display: flex;
+    margin-right: 43%;
+
+}
+
+.google{
+    float: left;
+    color: black;
+    text-align: left;
+    width: 40%;
+    height: 10%;
+    padding: 3%;
+    font-size: medium;
+    background-color:  rgb(216, 217, 217);;
+
+}
+
+.imggoogle{
+    float: right;
+    height: 294px;
+    width: 100px;
+    max-height: 100%;
+    display: flex;
+    margin-right: 43%;
+}
+
+.sms{
+    float: left;
+    color: black;
+    text-align: left;
+    width: 40%;
+    height: 10%;
+    padding: 3%;
+    font-size: medium;
+    background-color:  rgb(216, 217, 217);;
+}
+
+.imgsms{
+    float: right;
+    height: 280px;
+    width: 99px;
+    max-height: 100%;
+    display: flex;
+    margin-right: 43%;
+}
+
+.saiba2fa{
+    color: #04385a;
+    font-size:medium;
+}
+
+.vantagenstelecall{
+    
+    padding: 2%;
+}
+
+.vantagensti{
+    color: #04385a;
+    font-size: xx-large;
+}
+
+.vantagens1{
+    padding: 1%;
+    font-size: large;
+}
+
+.vantagensazul{
+    color: #2691d9;
+    padding: 1%;
+}
+
+#logi-menu {
+    color: black;
+}
