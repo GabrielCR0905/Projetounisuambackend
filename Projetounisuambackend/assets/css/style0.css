@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #04385a;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+#formulario {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+button[type="submit"],
+button[type="reset"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+    color: white;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    opacity: 0.8;
+}
+
+
+
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+
+
+}
+
+/* Estilos para a lista de erros */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    background-color: #ffebeb; /* Cor de fundo da mensagem de erro */
+    color: #d9534f; /* Cor do texto da mensagem de erro */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #d9534f; /* Cor da borda da mensagem de erro */
+    border-radius: 4px; /* Borda arredondada */
+}
+
+/* Estilo para o título da lista de erros, se desejar adicionar um título */
+.error-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #d9534f; /* Cor do texto do título da mensagem de erro */
+}
+
+li {
+    color: #f44336;
+}

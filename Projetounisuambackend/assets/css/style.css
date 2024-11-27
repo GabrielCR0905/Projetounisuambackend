@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    align-items: center;
+    background:#7a8288;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+
+
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width:12%;
+    height: 100%;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color:#DC143C ;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    transition: all .5s;
+    width: 100%;
+   
+    
+ 
+
+
+}
+
+
+
+.menunav{
+    list-style: none;
+    display: flex;
+}
+
+.menunav li {letter-spacing: 3px;
+            margin-left:30px ;
+}
+
+
+
+
+.form1  {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3e3e3;
+    padding: 4rem;
+    margin:auto
+    
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+}
+
+.login-button button {
+    border: none;
+    background-color: #1E90FF;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #1E90FF;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #1E90FF;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.8rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #1E90FF;
+}
+
+.input-box label,
+.gender-title h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin-right: 0.30rem;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+    
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #1E90FF;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover {
+    background-color: #1E90FF;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media screen and (max-width: 1330px) {
+    
+        
+
+    
+    
+    .form {
+        display: flex;
+        width: 65%;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+       
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    
+    .input-group {
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+    .gender-inputs {
+        margin-top: 1rem;
+    }
+    .gender-group {
+        flex-direction: column;
+    }
+    .gender-title h6 {
+        margin: 0;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+    }
+}
+
+#submit{
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #1E90FF;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit :hover {
+    background-color: #18b80a;
+}
+
+#submit a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.msg{
+    color: red;
+    font-size: small;
+
+}
+.msg2{
+    color: red;
+    font-size: small;
+}
+
+.msg3{
+    color: red;
+    font-size: small;
+}
+
+.msg4{
+    color: red;
+    font-size: small;
+}
+
+.msg5{
+    color: red;
+    font-size: small;
+}
+
+.msg6{
+    color: red;
+    font-size: small;
+}
+
+.msg7{
+    color: red;
+    font-size: small;
+}
+
+.msg8{
+    color: red;
+    font-size: small;
+}
+
+.msg9{
+    color: red;
+    font-size: small;
+}
+
+.msg10{
+    color: red;
+    font-size: small;
+}
+
+li{
+    color: red;
+}

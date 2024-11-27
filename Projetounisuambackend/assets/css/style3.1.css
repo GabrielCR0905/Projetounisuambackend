@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+
+
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 14%;
+    height: 100%;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color:#DC143C ;
+    height: 12vh;
+    
+
+
+}
+
+
+
+.menunav{
+    list-style: none;
+    display: flex;
+}
+
+.menunav li {letter-spacing: 3px;
+            margin-left:30px ;
+}
+
+.titulo2fa{
+    color:#04385a ;
+    font-size: xxx-large;
+    padding: 5%;
+    width:40%;
+    margin-left:9% ;
+
+
+}
+
+.subtitulo2fa{
+    color: #04385a;
+    text-align: left;
+    width: 27%;
+    padding: 4%;
+    font-size: x-large;
+    margin-left:10% ;
+    
+}
+
+.logo2fa{
+    float: right;
+    display: flex;
+    width:35%;
+    margin-top:-28%;
+    margin-right: 10%;
+    position:relative;
+    
+}
+
+#factor{
+    color: #04385a;
+    padding: 1%;
+}
+
+.artigo1{
+    padding:5%;
+    width: 100%;
+    
+}
+
+.pfactor{
+    width: 40%;
+}
+
+.imgfactor{
+    display: flex;
+    width: 30%;
+    float: right;
+    
+    margin-right:20%;
+    margin-top:-14%;
+}
+
+.titulofactor{
+    color: rgb(70, 73, 74);
+}
+
+.titulofunciona{
+   padding: 3%;
+   color: #04385a;
+}
+
+.funciona2fa{
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.funciona1{
+    width: 10%;
+    float: left;
+    padding:3% ;
+    font-size: large;
+}
+
+.funciona2{
+    width: 10%;
+    float:left;
+    margin-left: 5%;
+    padding: 1%;
+    font-size: large;
+}
+
+.funciona4{
+    width: 11%;
+    float:right;
+    margin-right: 43%;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    font-size: large;
+}
+
+
+
+.imgfunciona{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+body{
+    background-color:rgb(236, 244, 241);
+}
+
+.beneficios2fa{
+    padding:4%;
+    width: 60%;
+    font-size: large;
+
+}
+
+.beneficios2fa1{
+    float: right;
+}
+
+.tibeneficios2fa{
+    padding: 2%;
+    color: #04385a;
+    
+}
+
+.imgbeneficios2fa{
+    display: flex;
+    width: 27%;
+    float: right;
+    margin-right:9%;
+    margin-top:-18%;
+
+}
+
+.obscuro{
+    color: rgb(236, 244, 241);
+}
+
+.quemusa2fa{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 92%;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin: 5px;
+}
+
+.box2fa{
+    margin: 5px;
+    padding:8px ;
+}
+
+.tibox2fa{
+    color: rgb(4, 130, 198);
+}
+
+
